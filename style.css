@@ -2,34 +2,44 @@ body {
     background: rgb(207, 245, 247);
     font-family: 'Courier New', Courier, monospace;
 }
-.header {
-    text-align: center;
-    background-color: rgb(248, 200, 250);
-    color: black;
-    font-family: 'Courier New', Courier, monospace;
-    border: 2px solid #686767;
-    border-radius: 70px;
-    font-weight: 300;
-    font-variant: small-caps;
-}
 .greeting {
     text-align: center;
     font-size: 3em;
     font-family: serif;
 }
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 div + p {
     text-align: center;
+    padding-bottom: 50px;
 }
 h2 {
     text-align: center;
     font-family: serif;
-    padding-top: 75px;
+    padding-top: 50px;
     font-weight: normal;
     font-size: 1.8em;
+    padding-bottom: 25px;
 }
 button {
     color:rgb(83, 83, 83);
     background-color: rgb(220, 245, 196);
     font-family:'Courier New', Courier, monospace;
     border-width: 1px;
+}
+#firstButton {
+    margin-left: 100px;
+}
+#secondButton {
+    margin-left: 100px;
+}
+#thirdButton {
+    margin-left: 100px;
+}
+a {
+    margin-left: 100px;
+    padding-bottom: 75px;
 }
