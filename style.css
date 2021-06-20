@@ -1,5 +1,5 @@
 body {
-    background: rgb(201, 218, 219);
+    background: rgb(207, 245, 247);
     font-family: 'Courier New', Courier, monospace;
 }
 .header {
@@ -12,8 +12,20 @@ body {
     font-weight: 300;
     font-variant: small-caps;
 }
-.third {
-    display:none;
+.greeting {
+    text-align: center;
+    font-size: 3em;
+    font-family: serif;
+}
+div + p {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    font-family: serif;
+    padding-top: 75px;
+    font-weight: normal;
+    font-size: 1.8em;
 }
 button {
     color:rgb(83, 83, 83);
