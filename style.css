@@ -7,14 +7,15 @@ body {
     font-size: 3em;
     font-family: serif;
 }
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
 div + p {
     text-align: center;
     padding-bottom: 50px;
+}
+img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 h2 {
     text-align: center;
